@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.column {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
