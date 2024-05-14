@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -29,12 +29,16 @@ h2 {
   margin-bottom: 10px;
 }
 a {
-  color: black;
+  color: #007bff;
   text-decoration: none;
 }
 a:hover {
-  color: #007bff;
+  color: #0056b3;
   text-decoration: underline;
+  font-weight: bold;
+}
+h3 {
+  margin-top: 20px;
 }
 ul {
   list-style: none;
