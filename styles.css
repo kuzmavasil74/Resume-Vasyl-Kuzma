@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  min-height: 100vh;
 }
 
 .column {
@@ -22,8 +23,10 @@
 }
 
 footer {
+  width: 100%;
   text-align: center;
-  margin-top: 20px;
+  margin-top: auto;
+  padding: 20px 0;
 }
 
 button {
