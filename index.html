@@ -3,136 +3,219 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vasyl Kuzma - Fullstack Developer</title>
+    <title>Vasyl Kuzma - Full-stack Developer</title>
+    <meta
+      name="description"
+      content="Resume of Vasyl Kuzma, Full-stack Developer (React, Node.js) in Prague."
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Vasyl Kuzma</h1>
-    <h2>Fullstack Developer</h2>
+    <main class="page">
+      <header class="header">
+        <div>
+          <h1>Vasyl Kuzma</h1>
+          <p class="role">Full-stack Developer · React &amp; Node.js</p>
+        </div>
+        <ul class="contacts">
+          <li>Prague, Czech Republic</li>
+          <li><a href="tel:+420776788319">+420 776 788 319</a></li>
+          <li>
+            <a href="mailto:kuzmavasil.v@gmail.com">kuzmavasil.v@gmail.com</a>
+          </li>
+          <li><a href="https://t.me/Vasyl_Kuzma">t.me/Vasyl_Kuzma</a></li>
+          <li>
+            <a href="https://linkedin.com/in/vasylkuzma"
+              >linkedin.com/in/vasylkuzma</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/kuzmavasil74">github.com/kuzmavasil74</a>
+          </li>
+          <li>
+            <a href="https://kuzma-dev-com.vercel.app">kuzma-dev-com.vercel.app</a>
+          </li>
+        </ul>
+      </header>
 
-    <div class="section">
-      <h3>Summary</h3>
-      <p>
-        Passionate and detail-oriented Full-Stack Developer with experience in
-        building scalable web applications using JavaScript, TypeScript,
-        Node.js, and React. Strong problem-solving skills and a commitment to
-        delivering high-quality, maintainable code.
-      </p>
-    </div>
+      <section>
+        <h2>Summary</h2>
+        <p>
+          Full-stack developer who builds and runs real products for small
+          businesses: work and payroll tracking for a construction company, a
+          QR-based tool inventory system, and online booking with a Telegram
+          bot for a hair salon. I take projects from talking with the client
+          to deployment and support. Ph.D. in Physics: used to breaking hard
+          problems into small, testable steps.
+        </p>
+      </section>
 
-    <div class="section contact-info">
-      <h3>Contact Information</h3>
-      <p>Phone: +420 776 788 319</p>
-      <p>
-        Email:
-        <a href="mailto:kuzmavasil.v@gmail.com">kuzmavasil.v@gmail.com</a>
-      </p>
-      <p>Telegram: <a href="https://t.me/Vasyl_Kuzma">t.me/Vasyl_Kuzma</a></p>
-      <p>
-        LinkedIn:
-        <a href="https://linkedin.com/in/vasylkuzma"
-          >linkedin.com/in/vasylkuzma</a
-        >
-      </p>
-      <p>
-        GitHub:
-        <a href="https://github.com/kuzmavasil74">github.com/kuzmavasil74</a>
-      </p>
-      <p>Location: Prague, Czech Republic</p>
-    </div>
+      <div class="columns">
+        <div class="main">
+          <section>
+            <h2>Experience</h2>
 
-    <div class="section">
-      <h3>Technical Skills</h3>
-      <ul class="skills">
-        <li>
-          <strong>Backend:</strong> Node.js, Express.js, REST API, MongoDB
-        </li>
-        <li><strong>Frontend:</strong> React, Redux, TypeScript</li>
-        <li><strong>Version Control:</strong> Git, GitHub</li>
-      </ul>
-    </div>
+            <article class="item">
+              <div class="item-head">
+                <h3>Full-stack Developer · SANJO, Czech Republic</h3>
+                <span class="period">2026 – present</span>
+              </div>
+              <ul>
+                <li>
+                  <a href="https://buildtrack-frontend-ten.vercel.app"
+                    ><strong>BuildTrack</strong></a
+                  >: daily work records per site and crew, monthly payroll in
+                  five currencies with PDF/CSV export, receipt photos in S3,
+                  QR check-in, installable PWA in five languages. React 19,
+                  Tailwind CSS 4, Express, PostgreSQL, MongoDB, Railway, CI on
+                  GitHub Actions.
+                </li>
+                <li>
+                  <strong>Tool Tracker</strong>: tool inventory where
+                  storekeepers issue and return tools by scanning a QR code;
+                  single event log for history and reports, overlap-safe
+                  bookings, signed handover PDFs, GPS map, Telegram and web-push
+                  notifications, CSV/Excel/PDF exports, roles, daily backups.
+                </li>
+              </ul>
+            </article>
 
-    <div class="section">
-      <h3>Work Experience</h3>
-      <ul class="experience">
-        <li>
-          <strong>Fullstack Developer (Freelance)</strong> (2023 - Present)
-        </li>
-        <li>
-          <strong>Novares Group, Czech Republic</strong> - Various roles (2020 -
-          2023)
-        </li>
-        <li><strong>Yazaki LLC, Ukraine</strong> - Operator (2018)</li>
-        <li>
-          <strong>Junior Lecturer, University of Physics</strong> (2015 - 2019)
-        </li>
-      </ul>
-    </div>
+            <article class="item">
+              <div class="item-head">
+                <h3>Freelance Developer · TaisiyaStyle, Prague</h3>
+                <span class="period">2024 – present</span>
+              </div>
+              <ul>
+                <li>
+                  <a href="https://www.taisiiastyle.cz"
+                    ><strong>taisiiastyle.cz</strong></a
+                  >: website and online booking for a hairdresser in three
+                  languages. Bookings managed through a Telegram bot; a
+                  separate worker sends reminders and review requests. React,
+                  Express, MongoDB, JWT, Railway; API covered by unit and
+                  integration tests.
+                </li>
+              </ul>
+            </article>
 
-    <div class="section">
-      <h3>Education</h3>
-      <ul class="education">
-        <li>
-          <strong>Fullstack Developer Course</strong> - GoIT Global (2023 -
-          2024)
-        </li>
-        <li>
-          <strong>Ph.D. in Physics</strong> - Uzhgorod National University (2012
-          - 2015)
-        </li>
-        <li>
-          <strong>Bachelor's and Master's in Physics</strong> - Uzhgorod
-          National University (2007 - 2012)
-        </li>
-      </ul>
-    </div>
+            <article class="item">
+              <div class="item-head">
+                <h3>Novares Group, Czech Republic</h3>
+                <span class="period">2020 – 2023</span>
+              </div>
+              <p>
+                Operator → Inspector → Master → Electrotechnician: quality
+                control, team management, electrical maintenance.
+              </p>
+            </article>
 
-    <div class="section">
-      <h3>Projects</h3>
-      <ul class="projects">
-        <li>
-          <strong>KuzmaDev.com</strong> - Personal portfolio showcasing React
-          and Node.js expertise.
-        </li>
-        <li>
-          <strong>TaisiyaStyle</strong> - Hairdresser's website featuring
-          booking functionality.
-        </li>
-        <li>
-          <strong>Best Sellers Books</strong> - Adaptive design with animations.
-        </li>
-      </ul>
-    </div>
+            <article class="item">
+              <div class="item-head">
+                <h3>Yazaki LLC, Ukraine</h3>
+                <span class="period">2018</span>
+              </div>
+              <p>Operator: assembly line operation and quality checks.</p>
+            </article>
 
-    <div class="section">
-      <h3>Languages</h3>
-      <ul class="languages">
-        <li>English - B1 (Intermediate)</li>
-        <li>Ukrainian - C1 (Native)</li>
-        <li>Russian - B1 (Intermediate)</li>
-        <li>Czech - B1 (Intermediate)</li>
-      </ul>
-    </div>
+            <article class="item">
+              <div class="item-head">
+                <h3>Junior Lecturer · Uzhhorod National University</h3>
+                <span class="period">2015 – 2019</span>
+              </div>
+              <p>
+                Assisted with lectures, guided research and led practical lab
+                sessions in physics.
+              </p>
+            </article>
+          </section>
 
-    <div class="section">
-      <h3>Key Qualifications</h3>
-      <ul class="qualifications">
-        <li>
-          Strong foundation in JavaScript-based backend development (Node.js,
-          Express).
-        </li>
-        <li>
-          Experience working with APIs, best practices (testing, documentation,
-          monitoring).
-        </li>
-        <li>
-          Knowledge of OOP principles and software engineering best practices.
-        </li>
-        <li>
-          Open to working in a technology-agnostic environment and learning new
-          stacks.
-        </li>
-      </ul>
-    </div>
+          <section>
+            <h2>Study &amp; Team Projects</h2>
+            <ul>
+              <li>
+                <a href="https://team-project-watter-app.vercel.app/"
+                  ><strong>Tracker of Water</strong></a
+                >: water intake tracker, team project. Backend: password reset
+                flow (Express, MongoDB, JWT).
+              </li>
+              <li>
+                <a href="https://goit-react-hw-08-lac-chi.vercel.app/"
+                  ><strong>Contacts Book</strong></a
+                >: private contact book with registration and login. React,
+                Redux Toolkit, Formik.
+              </li>
+              <li>
+                <a href="https://goit-react-hw-05-azure-mu.vercel.app/"
+                  ><strong>Movie Search</strong></a
+                >: movie search with routing, details, cast and reviews.
+              </li>
+              <li>
+                <a href="https://volodymyrkozel.github.io/renderrangers/"
+                  ><strong>Best Sellers Books</strong></a
+                >: book shop site; Scrum Master and developer of the All
+                Categories section.
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <aside class="side">
+          <section>
+            <h2>Skills</h2>
+            <h3>Frontend</h3>
+            <p>
+              React, Redux Toolkit, JavaScript (ES6+), TypeScript, HTML5,
+              CSS3/SCSS, Tailwind CSS, Vite, React Router, i18n, PWA
+            </p>
+            <h3>Backend</h3>
+            <p>
+              Node.js, Express, REST API, MongoDB, PostgreSQL, JWT auth,
+              Telegram Bot API, AWS S3
+            </p>
+            <h3>Tools &amp; Delivery</h3>
+            <p>
+              Git/GitHub, GitHub Actions, Docker Compose, Vercel, Railway,
+              Render, Swagger
+            </p>
+          </section>
+
+          <section>
+            <h2>Education</h2>
+            <article class="item">
+              <h3>Fullstack Developer Course</h3>
+              <p class="muted">GoIT · 2023 – 2024</p>
+            </article>
+            <article class="item">
+              <h3>Ph.D. in Physics</h3>
+              <p class="muted">Uzhhorod National University · 2012 – 2015</p>
+            </article>
+            <article class="item">
+              <h3>Bachelor's &amp; Master's in Physics</h3>
+              <p class="muted">Uzhhorod National University · 2007 – 2012</p>
+            </article>
+          </section>
+
+          <section>
+            <h2>Languages</h2>
+            <ul class="plain">
+              <li>Ukrainian: native</li>
+              <li>Russian: B1</li>
+              <li>English: B1</li>
+              <li>Czech: B1</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Soft Skills</h2>
+            <ul class="plain">
+              <li>Working directly with clients</li>
+              <li>Attention to detail</li>
+              <li>Teamwork, Scrum</li>
+              <li>Problem solving</li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+    </main>
   </body>
 </html>
